@@ -78,7 +78,7 @@ For a quick start please use the scripts provided in `scripts/` directory. Run a
 <u>Notes to the users</u>:<br>
 1. The above scripts will run 5 independent runs of each method and log results on the wandb server. To collect average results, kindly download and parse the wandb project page using Pandas.
 2. In case running the scripts parallely incurs a cuda out of memory error, remove the `&` flag at the end of each bash command to run the models sequentially.
-3. BIRD takes a substantial amount of time to train due to <a href="https://github.com/facebookresearch/higher">higher</a> dependencies. We plan on fixing the train time optimization subsequently.
+3. BIRD takes an additional training step time due to <a href="https://github.com/facebookresearch/higher">higher</a> dependencies. We plan on fixing the train time optimization subsequently.
 4. For the remaining experiments change the model flags within the provided scripts to run.
 
 
