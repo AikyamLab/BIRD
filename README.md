@@ -1,9 +1,5 @@
 # Towards Bridging the Gap for Fairness in Knowledge Distillation
 
-
-This is the code for our KDD Submission Number: 453
-
-
 ## Installation
 Install the necessary packages with the following command:<br>
 `pip install -r requirements.txt`
